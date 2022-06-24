@@ -18,7 +18,6 @@ public class Util {
             System.out.println("Please enter a number greater than zero or you have entered a number greater than 2147483647");
             scannerNumber();
         }
-        scanner.close();
         return numOne;
     }
 
@@ -31,7 +30,6 @@ public class Util {
             System.out.println("Please enter a number greater than zero or you have entered a number greater than 2147483647");
             scannerDoubleNumber();
         }
-        scanner.close();
         return numDoubOne;
     }
 }
